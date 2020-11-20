@@ -1,3 +1,6 @@
 # Music App
 
-* Ruby on Rail
+* Ruby on Rails applications
+* Authentication
+* BCrypt
+*
