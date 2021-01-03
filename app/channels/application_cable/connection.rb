@@ -1,1 +1,2 @@
-module Appl
+module ApplicationCable
+  class Connection < Act
