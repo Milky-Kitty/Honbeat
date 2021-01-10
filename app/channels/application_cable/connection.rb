@@ -1,2 +1,2 @@
 module ApplicationCable
-  class Connection < Act
+  class Connection < ActionCable::Connection::Base
