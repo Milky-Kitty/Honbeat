@@ -1,1 +1,1 @@
-class App
+class ApplicationController < ActionControl
