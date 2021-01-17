@@ -1,1 +1,3 @@
-class ApplicationController < ActionControl
+class ApplicationController < ActionController::Base
+    def current_user
+ 
