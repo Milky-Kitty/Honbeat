@@ -4,4 +4,4 @@ class ApplicationController < ActionController::Base
         @current_user ||= User.find_by(session_token: session[:session_token])
     end
 
-    #if current_user has no insta
+    #if current_user has no instance of user, then we are not logged in
