@@ -6,4 +6,5 @@ class ApplicationController < ActionController::Base
 
     #if current_user has no instance of user, then we are not logged in
     def logged_in?
-   
+        !current_user.nil?
+    end
