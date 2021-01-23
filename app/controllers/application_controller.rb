@@ -8,3 +8,6 @@ class ApplicationController < ActionController::Base
     def logged_in?
         !current_user.nil?
     end
+
+    #reset the user's session token and cookie
+ 
