@@ -10,4 +10,5 @@ class ApplicationController < ActionController::Base
     end
 
     #reset the user's session token and cookie
- 
+    def login_user!(user)
+        sessio
