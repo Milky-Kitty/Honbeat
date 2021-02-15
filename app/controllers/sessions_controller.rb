@@ -1,1 +1,1 @@
-class Sessi
+class SessionsController < ApplicationController
