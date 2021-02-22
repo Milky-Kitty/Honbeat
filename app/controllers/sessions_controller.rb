@@ -3,4 +3,4 @@ class SessionsController < ApplicationController
     def create
         #find if the user exists
         user = User.find_by_credentials(params[:user][:email], params[:user][:password])
-        #if no user 
+        #if no user exists, throw an error during the response
