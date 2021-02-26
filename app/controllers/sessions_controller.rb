@@ -5,4 +5,5 @@ class SessionsController < ApplicationController
         user = User.find_by_credentials(params[:user][:email], params[:user][:password])
         #if no user exists, throw an error during the response
         if user.nil?
-            flash.now[:errors] = ["Incorrect em
+            flash.now[:errors] = ["Incorrect email/password combo"]
+            re
