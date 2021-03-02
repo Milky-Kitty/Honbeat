@@ -6,4 +6,6 @@ class SessionsController < ApplicationController
         #if no user exists, throw an error during the response
         if user.nil?
             flash.now[:errors] = ["Incorrect email/password combo"]
-            re
+            render :new
+        else  
+            login_user!
