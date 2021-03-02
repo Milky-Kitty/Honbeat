@@ -8,4 +8,5 @@ class SessionsController < ApplicationController
             flash.now[:errors] = ["Incorrect email/password combo"]
             render :new
         else  
-            login_user!
+            login_user!(user)
+            redire
