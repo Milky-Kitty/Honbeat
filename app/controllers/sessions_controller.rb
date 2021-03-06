@@ -9,4 +9,9 @@ class SessionsController < ApplicationController
             render :new
         else  
             login_user!(user)
-            redirect_to user_url(params[:user
+            redirect_to user_url(params[:user][:id])
+        end
+
+    end
+
+  
