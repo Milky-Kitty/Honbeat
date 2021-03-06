@@ -14,4 +14,4 @@ class SessionsController < ApplicationController
 
     end
 
-  
+    #logout, and go back to log
