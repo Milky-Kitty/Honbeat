@@ -16,4 +16,5 @@ class SessionsController < ApplicationController
 
     #logout, and go back to login screen
     def destroy
-      
+        logout_user!
+        redirect_to new_sessi
