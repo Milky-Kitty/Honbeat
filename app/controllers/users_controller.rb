@@ -1,1 +1,3 @@
-class UsersContro
+class UsersController < ApplicationController
+    
+    d
