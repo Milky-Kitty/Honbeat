@@ -1,3 +1,4 @@
 class UsersController < ApplicationController
     
-    d
+    def show
+        @user = User.find(
