@@ -8,4 +8,6 @@ class UsersController < ApplicationController
     def create
         @user = User.new(user_params)
         if @user.save
-            #logs in user upon
+            #logs in user upon creation
+            login_user!(@user)
+      
