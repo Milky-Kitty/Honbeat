@@ -10,4 +10,5 @@ class UsersController < ApplicationController
         if @user.save
             #logs in user upon creation
             login_user!(@user)
-      
+            #go to their page
+       
