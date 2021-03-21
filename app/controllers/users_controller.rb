@@ -11,4 +11,6 @@ class UsersController < ApplicationController
             #logs in user upon creation
             login_user!(@user)
             #go to their page
-            redirect_to user_url(p
+            redirect_to user_url(params[:id])
+        else
+         
