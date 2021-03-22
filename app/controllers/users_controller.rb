@@ -13,4 +13,5 @@ class UsersController < ApplicationController
             #go to their page
             redirect_to user_url(params[:id])
         else
-            #show error during respon
+            #show error during response cycle
+            flash.new
