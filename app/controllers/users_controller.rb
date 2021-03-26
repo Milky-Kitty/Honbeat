@@ -15,4 +15,6 @@ class UsersController < ApplicationController
         else
             #show error during response cycle
             flash.new[:errors] = @user.errors.full_messages
-            #go back to sign 
+            #go back to sign up page
+            render :new
+   
