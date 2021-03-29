@@ -17,4 +17,7 @@ class UsersController < ApplicationController
             flash.new[:errors] = @user.errors.full_messages
             #go back to sign up page
             render :new
-   
+        end
+    end
+
+    def 
