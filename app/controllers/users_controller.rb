@@ -20,4 +20,6 @@ class UsersController < ApplicationController
         end
     end
 
-    def 
+    def new
+        @user = User.new
+        render :n
