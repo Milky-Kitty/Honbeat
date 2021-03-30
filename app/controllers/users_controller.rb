@@ -22,4 +22,9 @@ class UsersController < ApplicationController
 
     def new
         @user = User.new
-        render :n
+        render :new
+    end
+
+    private
+
+   
