@@ -1,1 +1,2 @@
-module SessionsH
+module SessionsHelper
+end
