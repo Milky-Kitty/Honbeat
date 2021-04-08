@@ -1,1 +1,2 @@
-clas
+class User < ApplicationRecord
+    validate
