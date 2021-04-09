@@ -1,2 +1,2 @@
 class User < ApplicationRecord
-    validate
+    validates :email, :session_token, presence: tru
