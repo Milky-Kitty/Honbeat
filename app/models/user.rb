@@ -5,4 +5,6 @@ class User < ApplicationRecord
     attr_reader :password
 
     #makes sure we have a token
-    after_initialize :ensure
+    after_initialize :ensure_session_token
+
+    #gener
