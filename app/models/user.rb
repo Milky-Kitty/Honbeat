@@ -4,4 +4,5 @@ class User < ApplicationRecord
 
     attr_reader :password
 
-    #makes sure we have a toke
+    #makes sure we have a token
+    after_initialize :ensure
