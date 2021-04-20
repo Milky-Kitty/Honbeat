@@ -7,4 +7,5 @@ class User < ApplicationRecord
     #makes sure we have a token
     after_initialize :ensure_session_token
 
-    #gener
+    #generate a cookie
+    def self.genera
