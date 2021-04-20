@@ -8,4 +8,5 @@ class User < ApplicationRecord
     after_initialize :ensure_session_token
 
     #generate a cookie
-    def self.genera
+    def self.generate_session_token
+        SecureRandom::urlsaf
