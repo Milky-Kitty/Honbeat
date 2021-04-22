@@ -12,4 +12,5 @@ class User < ApplicationRecord
         SecureRandom::urlsafe_base64(16)
     end
 
-    def rese
+    def reset_session_token!
+        #reset a new s
