@@ -9,4 +9,7 @@ class User < ApplicationRecord
 
     #generate a cookie
     def self.generate_session_token
-        SecureRandom::urlsaf
+        SecureRandom::urlsafe_base64(16)
+    end
+
+    def rese
