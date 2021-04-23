@@ -13,4 +13,5 @@ class User < ApplicationRecord
     end
 
     def reset_session_token!
-        #reset a new s
+        #reset a new session token
+        self.session_t
