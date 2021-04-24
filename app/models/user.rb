@@ -14,4 +14,6 @@ class User < ApplicationRecord
 
     def reset_session_token!
         #reset a new session token
-        self.session_token = User.generate_session_toke
+        self.session_token = User.generate_session_token
+        #attempt to save
+        se
