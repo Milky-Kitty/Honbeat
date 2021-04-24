@@ -16,4 +16,5 @@ class User < ApplicationRecord
         #reset a new session token
         self.session_token = User.generate_session_token
         #attempt to save
-        se
+        self.save!
+        #return new session
