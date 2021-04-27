@@ -17,4 +17,8 @@ class User < ApplicationRecord
         self.session_token = User.generate_session_token
         #attempt to save
         self.save!
-        #return new session
+        #return new session token
+        self.session_token
+    end
+
+ 
