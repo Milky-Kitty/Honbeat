@@ -21,4 +21,5 @@ class User < ApplicationRecord
         self.session_token
     end
 
- 
+    def ensure_session_token
+        se
