@@ -22,4 +22,4 @@ class User < ApplicationRecord
     end
 
     def ensure_session_token
-        se
+        self.session_token ||= User.generate_session_toke
