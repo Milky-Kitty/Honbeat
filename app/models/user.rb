@@ -25,4 +25,5 @@ class User < ApplicationRecord
         self.session_token ||= User.generate_session_token
     end
 
-    def passwor
+    def password=(password)
+        @password = passwor
