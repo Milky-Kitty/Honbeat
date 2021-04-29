@@ -26,4 +26,6 @@ class User < ApplicationRecord
     end
 
     def password=(password)
-        @password = passwor
+        @password = password
+        #salting password
+     
