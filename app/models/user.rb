@@ -29,4 +29,7 @@ class User < ApplicationRecord
         @password = password
         #salting password
         self.password_digest = BCrypt::Password.create(password)
-    en
+    end
+
+    def is_password?(password)
+   
