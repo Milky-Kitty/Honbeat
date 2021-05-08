@@ -36,4 +36,5 @@ class User < ApplicationRecord
     end
 
     def self.find_by_credentials(email, password)
+        #trys to find by email
        
