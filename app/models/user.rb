@@ -37,4 +37,5 @@ class User < ApplicationRecord
 
     def self.find_by_credentials(email, password)
         #trys to find by email
-        user = User.find_by(email: emai
+        user = User.find_by(email: email)
+        #if no user, then retu
