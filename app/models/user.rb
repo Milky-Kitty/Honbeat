@@ -39,4 +39,5 @@ class User < ApplicationRecord
         #trys to find by email
         user = User.find_by(email: email)
         #if no user, then return nil
-        return nil unless use
+        return nil unless user
+        #unsalts and checks to
