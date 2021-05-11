@@ -40,4 +40,4 @@ class User < ApplicationRecord
         user = User.find_by(email: email)
         #if no user, then return nil
         return nil unless user
-        #unsalts and checks to
+        #unsalts and checks to see if hash matches password string
