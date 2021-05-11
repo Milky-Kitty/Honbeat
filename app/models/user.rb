@@ -41,3 +41,5 @@ class User < ApplicationRecord
         #if no user, then return nil
         return nil unless user
         #unsalts and checks to see if hash matches password string
+        user.is_password?(password)
+  
