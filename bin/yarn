@@ -1,1 +1,2 @@
-#!/us
+#!/usr/bin/env ruby
+APP_ROOT = F
