@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-APP_ROOT = F
+APP_ROOT = File.expand_path('..', __dir
