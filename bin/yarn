@@ -4,4 +4,4 @@ Dir.chdir(APP_ROOT) do
   begin
     exec "yarnpkg", *ARGV
   rescue Errno::ENOENT
-    $stderr.put
+    $stderr.puts "Yarn executable was not detected in t
