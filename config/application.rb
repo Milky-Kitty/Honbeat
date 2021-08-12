@@ -8,4 +8,5 @@ Bundler.require(*Rails.groups)
 
 module MusicApp
   class Application < Rails::Application
-    # Initialize configuration defau
+    # Initialize configuration defaults for originally generated Rails version.
+ 
