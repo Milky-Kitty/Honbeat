@@ -7,4 +7,5 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module MusicApp
-  class Application < Rails::Applicati
+  class Application < Rails::Application
+    # Initialize configuration defau
