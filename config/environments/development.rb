@@ -1,1 +1,2 @@
-Rails.applicatio
+Rails.application.configure do
+  # Setti
