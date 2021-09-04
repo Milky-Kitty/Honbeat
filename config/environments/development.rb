@@ -1,2 +1,2 @@
 Rails.application.configure do
-  # Setti
+  # Settings specified here will take preced
