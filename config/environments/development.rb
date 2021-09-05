@@ -1,2 +1,2 @@
 Rails.application.configure do
-  # Settings specified here will take preced
+  # Settings specified here will take precedence over those in config/appl
