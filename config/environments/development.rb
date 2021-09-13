@@ -10,3 +10,4 @@ Rails.application.configure do
   config.eager_load = false
 
   # Show full error reports.
+  config.consider_all_reques
