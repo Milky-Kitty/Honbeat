@@ -17,4 +17,5 @@ Rails.application.configure do
   if Rails.root.join('tmp', 'caching-dev.txt').exist?
     config.action_controller.perform_caching = true
 
-    confi
+    config.cache_store = :memory_store
+    co
