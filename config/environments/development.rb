@@ -27,4 +27,4 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Store uplo
+  # Store uploaded files on the local file system (see co
