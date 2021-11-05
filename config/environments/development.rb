@@ -42,4 +42,6 @@ Rails.application.configure do
   config.active_record.migration_error = :page_load
 
   # Highlight code that triggered database queries in logs.
-  config.active_record.v
+  config.active_record.verbose_query_logs = true
+
+  # Debu
