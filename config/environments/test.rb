@@ -22,4 +22,4 @@ Rails.application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
-  # Rai
+  # Raise exceptions instead of renderi
