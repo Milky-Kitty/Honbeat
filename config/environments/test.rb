@@ -23,4 +23,4 @@ Rails.application.configure do
   config.action_controller.perform_caching = false
 
   # Raise exceptions instead of rendering exception templates.
-  config
+  config.action_dispatch.show_exception
