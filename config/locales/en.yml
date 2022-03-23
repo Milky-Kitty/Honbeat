@@ -16,4 +16,6 @@
 #
 # This would use the information in config/locales/es.yml.
 #
-# The following keys must be escaped otherwise they will not be retrieved
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
