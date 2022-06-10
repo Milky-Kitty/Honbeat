@@ -10,4 +10,4 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.defi
+ActiveRecord::Schema.define(version: 2020_03_25_190913) 
