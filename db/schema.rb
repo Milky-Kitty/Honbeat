@@ -12,4 +12,4 @@
 
 ActiveRecord::Schema.define(version: 2020_03_25_190913) do
 
-  # These are extensions that m
+  # These are extensions that must be enabled in order 
