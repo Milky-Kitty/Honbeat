@@ -10,4 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_25_190913) 
+ActiveRecord::Schema.define(version: 2020_03_25_190913) do
+
+  # These are extensions that m
