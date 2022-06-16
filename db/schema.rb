@@ -12,4 +12,5 @@
 
 ActiveRecord::Schema.define(version: 2020_03_25_190913) do
 
-  # These are extensions that must be enabled in order 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plp
