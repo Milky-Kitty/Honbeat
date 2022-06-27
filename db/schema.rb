@@ -18,4 +18,5 @@ ActiveRecord::Schema.define(version: 2020_03_25_190913) do
   create_table "users", force: :cascade do |t|
     t.text "email", null: false
     t.text "password_digest", null: false
-    t.text "session_token", n
+    t.text "session_token", null: false
+    t.datetime "created_at"
