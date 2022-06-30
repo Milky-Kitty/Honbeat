@@ -22,4 +22,7 @@ ActiveRecord::Schema.define(version: 2020_03_25_190913) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email"
-    t.index ["session_token"], name: "index_
+    t.index ["session_token"], name: "index_users_on_session_token"
+  end
+
+end
