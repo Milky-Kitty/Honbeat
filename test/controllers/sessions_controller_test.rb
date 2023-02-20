@@ -1,3 +1,3 @@
 require 'test_helper'
 
-class Session
+class SessionsControllerTest < ActionDispatch:
