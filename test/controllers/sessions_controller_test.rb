@@ -1,3 +1,4 @@
 require 'test_helper'
 
-class SessionsControllerTest < ActionDispatch:
+class SessionsControllerTest < ActionDispatch::IntegrationTest
+  # test "the truth
