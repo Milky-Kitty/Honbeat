@@ -1,4 +1,7 @@
 require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
-  # test 
+  # test "the truth" do
+  #   assert true
+  # end
+end
