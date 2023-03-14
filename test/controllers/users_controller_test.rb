@@ -1,3 +1,4 @@
 require 'test_helper'
 
-class UsersControllerTest < ActionDispa
+class UsersControllerTest < ActionDispatch::IntegrationTest
+  # test 
